@@ -50,11 +50,11 @@ const Navbar = () => {
   return (
     <header className="w-full py-2 border-b-2 z-10">
       <div className="max-w-[1440px] mx-auto relative flex flex-row items-center justify-center mt-2">
-        <Link href="/" className="absolute left-10 top-1">
+        <Link href="/" className="absolute left-10 top-1 max-lg:hidden">
           <Logo />
         </Link>
 
-        <div className="w-[40rem] relative">
+        <div className="w-[40rem] max-lg:w-[30rem] max-sm:w-[20rem] relative">
           <Input
             placeholder="Search..."
             onChange={(e) => setSearchQuery(e.target.value)}
@@ -86,7 +86,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center mt-2 gap-2">
+      <div className="flex items-center justify-center mt-2 gap-2 flex-wrap">
         {Categories.map((category) => (
           <Link
             href={`/categories/${category.name}`}
