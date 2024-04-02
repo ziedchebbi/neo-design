@@ -18,6 +18,7 @@ const Page = async ({ params }: { params: { id: string } }) => {
         <Image
           src={product?.image!}
           alt="product"
+          priority
           width={10000}
           height={10000}
           className="object-contain h-full w-auto rounded-lg max-h-[100rem]"

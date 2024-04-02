@@ -79,7 +79,6 @@ const Home = async () => {
                       // height={10000}
                       // width={10000}
                       fill
-                      priority
                       sizes="100%"
                       className="object-cover"
                     />

@@ -35,7 +35,6 @@ const ProductCard = ({
               alt="product"
               width={10000}
               height={10000}
-              priority
               className="w-auto h-full object-contain"
             />
           </div>
