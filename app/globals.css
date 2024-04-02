@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #111827 !important;
+}
+
+/* START: Footer styles */
+.footer__links {
+  @apply flex-1 w-full flex md:justify-end flex-wrap max-md:mt-10 gap-10;
+}
+
+.footer__link {
+  @apply flex flex-col gap-4 text-base min-w-[170px];
+}
+
+/* END: Footer styles */
