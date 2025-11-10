@@ -1,1 +1,1 @@
-Stage obligatoire ISETR 2024
+Stage d'hiver ISETR 2024
