@@ -1,1 +1,1 @@
-Stage d'hiver ISETR 2024
+Internship Jan 2024 - Feb 2024
